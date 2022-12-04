@@ -1,18 +1,6 @@
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+  font-size: 18px;
 }
 
 body {
@@ -21,16 +9,22 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  background: linear-gradient(0deg, rgba(255, 217, 49, 1) 0%, rgba(66, 27, 185, 1) 0%, rgba(2, 4, 23, 1) 100%);
 }
 
 #app {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  border-radius: 40px;
+  color: #ffcd25;
+  background-color: rgb(2, 7, 32);
+  box-shadow: -2px -2px 25px 3px #ffcd25;
+  border-left: 1px solid #ffcc25da;
+  border-top: 2px solid #ffcc25da;
+  padding: 2.5rem 3rem;
+  letter-spacing: .3rem;
+}
+
+svg {
+  width: 90%;
+  height: 90%;
 }
